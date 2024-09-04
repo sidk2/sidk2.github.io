@@ -2,64 +2,58 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Sidharth Kannan
     - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: 10th May 2004
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: BS
+      institution: College of Creative Studies, University of California, Santa Barbara
+      year: 2022-2026
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Computing
+        - Physics
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+  - title: Research Intern
+      institution: Jeong Lab @ UCSB
+      year: 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Building machine learning models for cosmology
+    - title: Research Intern
+      institution: LIGO Laboratory
+      year: 2024
       description:
-        - Description 1.
-        - Description 2.
+        - Research Intern at the Laser Interferometry Gravitational Wave Observatory (LIGO).
+        - Designed and implemented a graph neural network based surrogate model for simulating optical physics in the LIGO interferometer, leading to over 40x speedups in simulation times. Investigated the applicability of Kolmogorov-Arnold networks in comparison to MLPs for physics simulation.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Research Scholar
+      institution: Orchestrating Physics for Unconventional Systems Lab @ UCSB
+      year: 2022-2024
+      description: IBM-sponsored Semiconductor Research Corporation Research Scholar. 
+        - Developed resource efficient architecture for Ising Machines
+        - Developed and benchmarked a novel, highly reconfigurable Ising Machine architecture, competitive with state of the art SAT solvers (https://arxiv.org/abs/2312.08748)
+   
+    - title: Research Intern
+      institution: ARCHLab @ UCSB
+      year: 2022-2023
+      description: Research intern at the computer architectures lab at UCSB
+        - Developed a physics model for energy consumption in magnetic levitation devices.
+        - Developed a simulation for training time and energy costs of training large neural networks on petabyte scale datasets.
+        
+    - title: Flight Software Intern
+      institution: Astranis Space Technologies
+      year: 2023
+      description: Developed tools for analyzing satellite telemetry data to optimize disk space allocation and downlink. Implemented a receiver interface for Global Navigation Satellite System (GNSS) to communicate with Astranis satellites for satellite localization during orbit raise.
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: SSD Firmware Engineering Intern
+      institution: TenaFe Inc.
+      year: 2022
+      description: Developed a lightweight simulator for determining read/write bandwidth, latency under different workloads, NAND configurations (TLC, QLC, MLC) of TenaFe SSDs.
 
 - title: Open Source Projects
   type: time_table
