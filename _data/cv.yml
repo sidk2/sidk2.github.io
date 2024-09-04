@@ -34,26 +34,30 @@
     - title: Research Scholar
       institution: Orchestrating Physics for Unconventional Systems Lab @ UCSB
       year: 2022-2024
-      description: IBM-sponsored Semiconductor Research Corporation Research Scholar. 
+      description: 
+        - IBM-sponsored Semiconductor Research Corporation Research Scholar. 
         - Developed resource efficient architecture for Ising Machines
         - Developed and benchmarked a novel, highly reconfigurable Ising Machine architecture, competitive with state of the art SAT solvers (https://arxiv.org/abs/2312.08748)
    
     - title: Research Intern
       institution: ARCHLab @ UCSB
       year: 2022-2023
-      description: Research intern at the computer architectures lab at UCSB
+      description: 
+        - Research intern at the computer architectures lab at UCSB
         - Developed a physics model for energy consumption in magnetic levitation devices.
         - Developed a simulation for training time and energy costs of training large neural networks on petabyte scale datasets.
         
     - title: Flight Software Intern
       institution: Astranis Space Technologies
       year: 2023
-      description: Developed tools for analyzing satellite telemetry data to optimize disk space allocation and downlink. Implemented a receiver interface for Global Navigation Satellite System (GNSS) to communicate with Astranis satellites for satellite localization during orbit raise.
+      description: 
+        - Developed tools for analyzing satellite telemetry data to optimize disk space allocation and downlink. Implemented a receiver interface for Global Navigation Satellite System (GNSS) to communicate with Astranis satellites for satellite localization during orbit raise.
 
     - title: SSD Firmware Engineering Intern
       institution: TenaFe Inc.
       year: 2022
-      description: Developed a lightweight simulator for determining read/write bandwidth, latency under different workloads, NAND configurations (TLC, QLC, MLC) of TenaFe SSDs.
+      description: 
+        - Developed a lightweight simulator for determining read/write bandwidth, latency under different workloads, NAND configurations (TLC, QLC, MLC) of TenaFe SSDs.
       
 - title: Honors and Awards
   type: time_table
