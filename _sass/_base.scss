@@ -16,7 +16,7 @@ div,
 li,
 span,
 strong {
-  : var(--global-text-color);
+  color: var(--global-text-color);
 }
 
 hr {
