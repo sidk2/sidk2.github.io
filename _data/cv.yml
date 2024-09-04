@@ -5,6 +5,32 @@
       value: Sidharth Kannan
     - name: Date of Birth
       value: 10th May 2004
+      
+- title: Education
+  type: time_table
+  contents:
+    - title: BS
+      institution: College of Creative Studies, University of California, Santa Barbara
+      year: 2022-2026
+      description:
+        - Computing
+        - Physics
+        
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2022-2026
+      items:
+        - Regents' Scholar
+        - Creative Studies Honors Student
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Machine Learning
+      items:
+        - ML for the fundamental sciences
+        - Physics and geometry of neural networks
 
 - title: Other Interests
   type: list
