@@ -1,7 +1,7 @@
 ---
 title: "Graph Neural Networks for Interferometer Emulation"
 collection: talks
-type: "Conference proceedings talk"
+type: "Talk"
 permalink: /talks/2014-03-01-talk-3
 venue: "Kavli Institute for Theoretical Physics, Undergraduate Research Symposium"
 date: 2014-03-01
