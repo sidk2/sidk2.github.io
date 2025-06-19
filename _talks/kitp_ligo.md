@@ -9,3 +9,5 @@ location: "Santa Barbara, CA, USA"
 ---
 
 Gave a talk on my summer research at LIGO Laboratory on using graph neural networks and Kolmogorov-Arnold Networks for interferometer emulation, as part of the annual undergraduate research symposium.
+
+Video at [link](https://online.kitp.ucsb.edu/online/undergrad24/kannan/).
