@@ -4,7 +4,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/stat-phys-ml
 venue: "Online"
-date: 2025-02
+date: 2025-02-01
 location: "Online"
 ---
 
