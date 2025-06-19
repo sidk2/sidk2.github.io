@@ -11,35 +11,51 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* B.S in Computing, College of Creative Studies, University of California Santa Barbara. 2026 (expected)
+* B.S in Physics, University of California Santa Barbara. 2026 (expected)
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Undergraduate Researcher, UC Santa Barbara (Fall 2022-Present)
+  * [Jeong Lab](https://haewonjeong.com)
+    * Building flow matching models for unsupervised representation learning in cosmology. We focus on building models with physically meaningful and interpretable latent spaces
+    * Skills: Generative ML (diffusion, flow matching, VAEs)
+  * [OPUS Lab](https://opus.ece.ucsb.edu/)
+    * Built first ever hardware implementation of higher order Ising machines for combinatorial optimization, demonstrated state-of-the-art performance, while enabling mapping multiple problem instances onto a single chip.
+    * Skills: Optimization algorithms, Markov Chain Monte Carlo, SystemVerilog
+  * [ARCHLab](https://www.arch.cs.ucsb.edu)
+    * Proposed and simulated data transport mechanisms for petascale machine learning training
+    * Skills: Network/hardware simulation
+* Computational Physics Fellow (Summer 2025)
+  * [Los Alamos National Laboratory](https://lanl.gov)
+  * Developing codes for modelling relativistic electron scattering in plasmas
+  * Skills: Numerical methods, Fortran, multiphysics simulation
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Research Intern (Summer 2024)
+  * [LIGO Laboratory](https://www.ligo.caltech.edu)
+  * Developed graph neural network based deep learning models for interferometer emulation.
+  * Skills: Deep learning, graph neural networks, Pytorch
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Undergraduate Teaching Assistant (Fall 2023-Present)
+  * Teaching assistant at UC Santa Barbara for: Intro to Scientific Computing, Data Structures and Algorithms 1 & 2, Introductory Electrostatics.
+  * Wrote and graded assignments, held office hours, proctored exams.
+
+* Flight Software Intern (Summer 2023)
+  * [Astranis Space Technologies](https://www.astranis.com)
+  * Developed data analysis pipelines for analyzing satellite telemetry data
+  * Built driver interface for communication between Astranis and GNSS satellites
+  * Skills: Data Analysis, CI/CD
+
+* Firmware Engineering Intern (Summer 2022)
+  * [TenaFe, Inc.](https://www.tenafe.com)
+  * Developed high level simulation of SSD controller, including simulations of error correction, flash modules
+  * Skills: C++, hardware simulation
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Physics: particularly numerical methods for physics, and methods of statistical physics
+* Machine Learning: deep learning, generative (particularly diffusion, flow and energy based models)
+* Computing: scientific and high performance computing, Markov Chain Monte Carlo methods
 
 Publications
 ======
@@ -58,7 +74,3 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams

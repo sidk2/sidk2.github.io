@@ -14,10 +14,20 @@ You can find my lecture notes at below. Finding typos is left as an exercise for
 
 <h2>Lecture Notes</h2>
 <ul>
-  {% assign notes = site.static_files | where_exp:"f","f.path contains 'files/cmptgcs5'" %}
+  {% assign notes = site.static_files | where_exp:"f","f.path contains 'files/cmptgcs5/lectures'" %}
   {% for file in notes %}
     <li>
-      <a href="{{ file.path }}">{{ file.name | replace: '.pdf', '' | replace: 'lec', 'Lecture ' }}</a>
+      <a href="{{ file.path }}">{{ file.name | replace: '.pdf', '' | replace: 'Lecture', 'Lecture ' }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+<h2>Assigned Problems</h2>
+<ul>
+  {% assign notes = site.static_files | where_exp:"f","f.path contains 'files/cmptgcs5/hw'" %}
+  {% for file in notes %}
+    <li>
+      <a href="{{ file.path }}">{{ file.name | replace: '.pdf', '' | replace: 'cs5_hw', 'Problem Set ' }}</a>
     </li>
   {% endfor %}
 </ul>
