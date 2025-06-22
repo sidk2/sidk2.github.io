@@ -37,7 +37,7 @@ In Hamiltonian mechanics, we don't consider forces. Instead, we consider a scala
 usually the **total energy** (kinetic + potential), expressed in terms of:
 
 - \\(q\\): generalized coordinate (e.g. \$(\theta)\$ for the pendulum)  
-- \\(p\\)$: conjugate momentum (for a pendulum, \\(p = mL^2\,\dot\theta\\))  
+- \\(p\\): conjugate momentum (for a pendulum, \\(p = mL^2\,\dot\theta\\))  
 - \\(t\\): sometimes explicitly, if energy isn’t conserved
 
 Then the _equations of motion_ are a neat pair of **first-order** ODEs:
@@ -47,9 +47,9 @@ Then the _equations of motion_ are a neat pair of **first-order** ODEs:
 ### The Simple Pendulum in Hamiltonian Mechanics
 1. We can start by writing the Hamiltonian, \$$\mathcal{H}(\theta,p) = \frac{p^2}{2\,m\,L^2} + mgL(1-\cos\theta).\$$  
 2. Putting that into Hamilton's equations, we get
-   - \$$\dot\theta = \frac{\partial H}{\partial p} = \frac{p}{mL^2}\$$  
-   - \$$\dot p   = -\frac{\partial H}{\partial \theta} = -m\,g\,L\,\sin\theta\$$
-3. **Simulate** these two first-order equations (often with a symplectic integrator like Verlet) and you’ll see the same nice, closed loops in \$$(\theta,p)\$$-space.
+  - $ \dot\theta = \frac{\partial \mathcal{H}}{\partial p} = \frac{p}{mL^2} $
+  - $ \dot p   = -\frac{\partial \mathcal{H}}{\partial \theta} = -mgL\sin\theta $
+3. Simulate these two first-order equations (often with a symplectic integrator like Verlet) and you’ll see the same nice, closed loops in \\((\theta,p)\\)-space.
 
 ---
 
