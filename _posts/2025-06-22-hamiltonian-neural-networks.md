@@ -9,7 +9,11 @@ tags:
 katex: true
 ---
 
-So I recently read [this paper](https://arxiv.org/pdf/1906.01563) on Hamiltonian Neural Networks, and I thought it was a really neat, simple, and elegant idea. The idea is this: Is there a way that we can teach neural networks basic laws of physics? One might say that given sufficient data, the network should learn the underlying physical law, but it turns out that to do this you need quite a lot of data, and you still don't have a formal guarantee that the network is learning the true physics.
+Code for this blog post can be found at [link](https://github.com/sidk2/hamiltonian-networks)
+
+I recently read [this paper](https://arxiv.org/pdf/1906.01563) on Hamiltonian Neural Networks, and thought it was pretty neat.
+
+The idea is this: Is there a way that we can teach neural networks basic laws of physics? One might say that given sufficient data, the network should learn the underlying physical law, but it turns out that to do this you need quite a lot of data, and you still don't have a formal guarantee that the network is learning the true physics.
 
 Hamiltonian neural networks are a simple method of enforcing physical constraints on the neural network. To understand how and why they work, we need to talk about Hamiltonian mechanics.
 
@@ -17,7 +21,7 @@ Hamiltonian Mechanics
 ======
 
 
-Newton’s Laws: Forces & Second-Order ODEs
+## Newton’s Laws: Forces & Second-Order ODEs
 
 Hamiltonian mechanics is an alternative formulation of classical mechanics to Newton's laws. In Newtonian mechanics, you start with in order to determine the so-called equation of motion of an object, we apply Newton's second law: \$$\vec{F} = m\vec{a}\$$. That is, we take our object, determine what the forces on it are, and then that tells us the acceleration of the object, from which we can calculate its position over time via some second order differential equation.
 ### Pendulum in Newtonian Terms  
