@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/cosmo-flow
 excerpt: ''
 date: 2025-07-01
-venue: 'In Review, ICML 2025 ML4Astro Workshop'
+venue: 'ML4Astro Workshop, Co-located with ICML 2025'
 paperurl: 'https://openreview.net/pdf?id=VGRQvPxxY5'
 
 ---
