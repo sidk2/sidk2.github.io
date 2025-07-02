@@ -8,7 +8,7 @@ date: 2025-04-01
 location: "Santa Barbara, California"
 ---
 
-I had the privelege of teaching a 10 week seminar course on statistical mechanics and its connections to machine learning theory. We covered the following topics: 1] Boltzmann statistics, 2] the Ising model and mean field theories, 3] Energy based models and Boltzmann machines, 4] Diffusion Models, 5] Fokker-Planck equations and the probability flow ODE, 6] Effective field theories of neural networks, and 7] Neural tangent kernels.
+I had the privilege of teaching a 10 week seminar course on statistical mechanics and its connections to machine learning theory. We covered the following topics: 1] Boltzmann statistics, 2] the Ising model and mean field theories, 3] Energy based models and Boltzmann machines, 4] Diffusion Models, 5] Fokker-Planck equations and the probability flow ODE, 6] Effective field theories of neural networks, and 7] Neural tangent kernels.
 
 You can find my lecture notes at below. Finding typos is left as an exercise for the reader :).
 
