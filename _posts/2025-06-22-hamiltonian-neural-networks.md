@@ -46,7 +46,9 @@ usually the **total energy** (kinetic + potential), expressed in terms of:
 
 Then the _equations of motion_ are a neat pair of **first-order** ODEs:
 
-\$$  \dot q = \frac{\partial \mathcal{H}}{\partial p}, \quad \dot p = -\,\frac{\partial \mathcal{H}}{\partial q}.\$$
+<div>
+$$\dot q = \frac{\partial \mathcal{H}}{\partial p}, \quad \dot p = -\,\frac{\partial \mathcal{H}}{\partial q}.$$
+</div>
 
 ### The Simple Pendulum in Hamiltonian Mechanics
 1. We can start by writing the Hamiltonian, \$$\mathcal{H}(\theta,p) = \frac{p^2}{2\,m\,L^2} + mgL(1-\cos\theta).\$$  

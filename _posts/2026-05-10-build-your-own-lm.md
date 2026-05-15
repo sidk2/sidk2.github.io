@@ -1,6 +1,5 @@
 ---
 title: 'Build-Your-Own-LM: Part 1 - The NanoGPT'
-collection: posts
 date: 2026-05-10
 permalink: /posts/build-your-own-lm
 tags:
