@@ -14,7 +14,7 @@ The second issue is one that I suspect is far more common. Despite being an ML r
 The plan for the project is to build a fairly barebones language model, and then incorporate some of the more advanced techniques that are being used in frontier models. In particular, we will implement 
 
 - The base model, including
-  - Byte-pair encoding (BPE) tokenizer
+  - [Byte-pair encoding (BPE) tokenizer](/posts/build-your-own-lm-tokenizer)
   - Attention / the transformer block
   - Rotary positional encoding (RoPE)
 - Some more advanced techniques
@@ -24,4 +24,4 @@ The plan for the project is to build a fairly barebones language model, and then
 
 I want to emphasize that the goal of this project is not to write the optimal implementation of any of these, or to achieve any particularly notable performance metrics. As such, the advanced techniques are a somewhat arbitrary collection of topics that I am just interested in building. I have some more ambitious research projects in mind for the next few months, and so I'm treating this effort as a bit of a warmup.
 
-Links to the specific writeups for each stage will be posted here as they are written.
+Links to the specific writeups for each stage will be posted here as they are written. For the tokenizer implementation, see [Part 2: BPE Tokenizer](/posts/build-your-own-lm-tokenizer).
