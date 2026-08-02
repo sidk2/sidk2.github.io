@@ -1,10 +1,11 @@
 ---
 title: 'Build-Your-Own-LM: A Journey into Language Modeling'
 date: 2026-05-10
-permalink: /posts/build-your-own-lm
+permalink: /posts/build-your-own-lm/
 tags:
   - machine-learning
 katex: true
+summary: 'A from-scratch exploration of tokenization, transformer architecture, caching, quantization, and modern language-model components.'
 ---
 
 *Last updated: 6/1/2026, with the tokenizer optimizations and transformer description.*
@@ -16,7 +17,7 @@ The second issue is one that I suspect is far more common. Despite being an ML r
 The plan for the project is to build a fairly barebones language model, and then incorporate some of the more advanced techniques that are being used in frontier models. In particular, we will implement 
 
 - The base model, including
-  - [Byte-pair encoding (BPE) tokenizer](/posts/build-your-own-lm-tokenizer)
+  - [Byte-pair encoding (BPE) tokenizer](#the-tokenizer)
   - Attention / the transformer block
   - Rotary positional encoding (RoPE)
 - Some more advanced techniques

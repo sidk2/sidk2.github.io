@@ -8,10 +8,10 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "Publications"
+  - title: "Research"
     url: /publications/
 
-  - title: "Talks"
+  - title: "Presentations"
     url: /talks/    
 
   - title: "Teaching"
@@ -20,11 +20,14 @@ main:
   # - title: "Portfolio"
   #   url: /portfolio/
         
-  - title: "Blog Posts"
+  - title: "Writing"
     url: /posts/
     
   - title: "CV"
     url: /cv/
+
+  - title: "Contact"
+    url: mailto:sid.kannan11@gmail.com
     
   # - title: "CV"
   #   url: /cv-json/

@@ -1,14 +1,15 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Sidharth Kannan",
+    "label": "Machine learning researcher focusing on agents for science and engineering",
+    "email": "sid.kannan11@gmail.com",
+    "phone": "408-466-5904",
+    "website": "https://sidk2.github.io",
+    "summary": "Research Engineer at ChipAgents building efficient agents for electronic design automation.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "California",
       "countryCode": "US",
       "region": ""
     },
@@ -16,137 +17,204 @@
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "url": "https://scholar.google.com/citations?user=EJWSbKUAAAAJ&hl=en"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "sidk2",
+        "url": "https://github.com/sidk2"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "position": "Research Engineer",
+      "company": "ChipAgents",
+      "startDate": "March 2026",
+      "endDate": "Present",
+      "summary": "Building efficient machine learning agents for electronic design automation.",
+      "highlights": [
+        "Built domain-specific datasets for semiconductor tapeout and post-training of GLM 5.2.",
+        "Shipped an agentic analog mixed-signal design verification toolchain used by tier-one semiconductor companies.",
+        "Reduced token use by 40% through model routing, programmatic tool calling, and caching optimizations."
+      ]
+    },
+    {
+      "position": "Computational Physics Fellow",
+      "company": "Los Alamos National Laboratory",
+      "startDate": "June 2025",
+      "endDate": "March 2026",
+      "summary": "Developed computational models for relativistic electron scattering and fusion-reactor simulations.",
+      "highlights": [
+        "Developed codes for modeling relativistic electron scattering in dilute gases.",
+        "Built flow-based models to super-resolve observables in particle-in-cell simulations."
+      ]
+    },
+    {
+      "position": "Undergraduate Research Assistant",
+      "company": "University of California, Santa Barbara",
+      "startDate": "October 2022",
+      "endDate": "Present",
+      "summary": "Conducted research in generative machine learning, scientific computing, and probabilistic hardware.",
+      "highlights": [
+        "Built flow-based generative models for representation learning of cosmological fields.",
+        "Built the first hardware implementation of a higher-order Ising machine.",
+        "Increased device capacity by 20% through graph-clustering algorithms for resource sharing."
+      ]
+    },
+    {
+      "position": "Research Intern",
+      "company": "LIGO Laboratory",
+      "startDate": "June 2024",
+      "endDate": "December 2024",
+      "summary": "Developed graph-neural-network surrogate models for interferometer simulation.",
+      "highlights": [
+        "Achieved up to 800x speedups over traditional numerical methods with minimal loss of fidelity.",
+        "Improved thermal-aberration simulation by comparing frequency- and spatial-domain methods."
+      ]
+    },
+    {
+      "position": "Flight Software Intern",
+      "company": "Astranis Space Technologies",
+      "startDate": "June 2023",
+      "endDate": "September 2023",
+      "summary": "Built satellite telemetry analysis tools and a GNSS receiver interface.",
+      "highlights": []
+    },
+    {
+      "position": "Firmware Engineering Intern",
+      "company": "TenaFe, Inc.",
+      "startDate": "June 2022",
+      "endDate": "September 2022",
+      "summary": "Developed a software framework and simulation modules for SSD controller verification.",
+      "highlights": []
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
+      "institution": "University of California, Santa Barbara",
+      "area": "B.S. in Computer Science and B.S. in Physics",
+      "studyType": "Bachelor of Science",
+      "startDate": "September 2022",
+      "endDate": "March 2026",
+      "gpa": "3.94, High Honors",
       "courses": []
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Machine Learning",
+      "keywords": ["PyTorch", "JAX", "Slime", "Harness Engineering", "Flow Matching", "Weights & Biases"]
+    },
+    {
+      "name": "Scientific Computing",
+      "keywords": ["NumPy", "SciPy", "Distributed Training (DDP)", "SLURM"]
+    },
+    {
+      "name": "Chip Design",
+      "keywords": ["FPGA", "Vivado", "SystemVerilog", "SPICE", "Agents for Chip Design"]
+    }
+  ],
   "languages": [],
   "interests": [],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Lambda-CFM: Scale-Aware Representation Learning for Cosmology with Flow Matching",
+      "publisher": "Machine Learning: Science and Technology",
+      "releaseDate": "2025",
+      "website": "https://arxiv.org/abs/2507.11842",
+      "summary": "In press."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Graph Neural Networks for Interferometer Simulation",
+      "publisher": "NeurIPS 2025 Workshop on AI for Science",
+      "releaseDate": "2025",
+      "website": "https://arxiv.org/abs/2512.16051",
+      "summary": ""
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "All-to-all Reconfigurability with Sparse and Higher-Order Ising Machines",
+      "publisher": "Nature Communications",
+      "releaseDate": "2024",
+      "website": "https://www.nature.com/articles/s41467-024-53270-w",
+      "summary": "Equal contribution."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "The Case for Data Centre Hyperloops",
+      "publisher": "51st ACM/IEEE International Symposium on Computer Architecture",
+      "releaseDate": "2024",
+      "website": "https://doi.org/10.1109/ISCA59077.2024.00026",
+      "summary": ""
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
+      "name": "Lambda-CFM: Scale-Aware Representation Learning for Cosmology with Conditional Flow Matching",
+      "event": "Simons Foundation, Learning the Universe Collaboration",
+      "date": "2025-12-01",
+      "location": "",
+      "description": "Invited talk"
+    },
+    {
+      "name": "Self-Consistent Relativistic Electron Scattering for X-Ray Diagnostics",
+      "event": "Kavli Institute for Theoretical Physics, Undergraduate Research Symposium",
+      "date": "2025-09-01",
+      "location": "Santa Barbara, CA",
       "description": ""
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
+      "name": "Statistical Mechanics of Machine Learning",
+      "event": "NSF Institute for Artificial Intelligence and Fundamental Interactions Reading Group",
+      "date": "2025-03-01",
+      "location": "",
       "description": ""
     },
     {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
+      "name": "Graph Neural Networks for Interferometer Simulations",
+      "event": "Kavli Institute for Theoretical Physics, Undergraduate Research Symposium",
+      "date": "2024-09-01",
+      "location": "Santa Barbara, CA",
       "description": ""
     }
   ],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
+      "course": "Undergraduate Learning Assistant",
+      "institution": "University of California, Santa Barbara",
+      "date": "2023-09-01",
+      "role": "Teaching assistant",
+      "description": "Intro to Scientific Computing, Electrostatics, Data Structures and Algorithms I & II, and Discrete Mathematics."
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "course": "CMPTG CS 5: Statistical Physics and Neural Networks",
+      "institution": "University of California, Santa Barbara",
+      "date": "2025-01-01",
+      "role": "Course instructor",
+      "description": "Ten-week course connecting neural-network theory and statistical physics."
+    },
+    {
+      "course": "PHYS CS 5: Non-equilibrium Statistical Mechanics",
+      "institution": "University of California, Santa Barbara",
+      "date": "2026-01-01",
+      "role": "Course instructor",
+      "description": "Ten-week course on stochastic processes, Brownian motion, kinetic theory, and open quantum systems."
     }
   ],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
+      "name": "Mini-GPT",
+      "category": "machine learning",
+      "date": "2026",
+      "url": "https://github.com/sidk2/build-your-own-lm",
+      "description": "A GPT-2-style language model trained on TinyStories."
+    },
+    {
+      "name": "Fermiacc",
+      "category": "AI for science",
+      "date": "2026",
       "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "description": "AI agents for autonomous theory generation and validation in high-energy physics."
     }
   ]
 }

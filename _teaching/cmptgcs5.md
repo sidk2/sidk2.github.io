@@ -2,7 +2,7 @@
 title: "CMPTG CS 5 - Spring 2025"
 collection: teaching
 type: "Seminar"
-permalink: /teaching/cmptg-cs-5-s25
+permalink: /teaching/cmptg-cs-5-s25/
 venue: "University of California, Santa Barbara, College of Creative Studies"
 date: 2025-04-01
 location: "Santa Barbara, California"
@@ -36,4 +36,4 @@ References
 ======
 Parts of these lecture notes are indebted to the following resources
 - Peter Holdierrieth's (https://www.peterholderrieth.com/blog/2023/The-Fokker-Planck-Equation-and-Diffusion-Models/) and Yang Song's (https://yang-song.net/blog/2021/score/) blog posts on diffusion 
-- Principles of Deep Learning Theory by Roberts, Yaida and Hanin 
+- Principles of Deep Learning Theory by Roberts, Yaida and Hanin

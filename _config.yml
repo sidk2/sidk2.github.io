@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Sid Kannan / Personal Website"
+title                    : "Sid Kannan"
 title_separator          : "-"
 name                     : &name "Sid Kannan"
-description              : &description "personal description"
+description              : &description "Research in machine learning, statistical physics, and scientific computing."
 url                      : https://sidk2.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sidk2/sidk2.github.io"
@@ -22,14 +22,14 @@ repository               : "sidk2/sidk2.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "sid.png"
+  avatar           : "sid-headshot.jpg"
   name             : "Sidharth Kannan"
   pronouns         : # example: "she/her"  
-  bio              : "Fourth Year Undergrad, Physics, Computer Science"
-  location         : "Santa Barbara, California"
-  employer         : "UC Santa Barbara"
+  bio              : "Research Engineer building efficient agents for electronic design automation"
+  location         : "California"
+  employer         : "ChipAgents"
   uri              : # URL
-  email            : "skannan@ucsb.edu" 
+  email            : "sid.kannan11@gmail.com"
 
   # Academic websites
   academia         : # URL
@@ -134,8 +134,8 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_image                 : "og-field-notes.png"
+og_description           : "Research in machine learning, statistical physics, and scientific computing."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:

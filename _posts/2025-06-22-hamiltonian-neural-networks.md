@@ -2,7 +2,7 @@
 title: 'Hamiltonian Neural Networks'
 collection: posts
 date: 2025-06-22
-permalink: /posts/hnn
+permalink: /posts/hnn/
 tags:
   - machine-learning
   - physics

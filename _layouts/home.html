@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<main class="home-page">
+  <section class="home-hero" aria-labelledby="home-title">
+    <div class="home-hero__copy">
+      <h1 id="home-title">Sidharth Kannan</h1>
+      <p class="home-intro">I am a Research Engineer at ChipAgents, working on building more efficient agents for electronic design automation. Previously, I studied Physics and Computer Science at UC Santa Barbara.</p>
+      <div class="home-actions">
+        <a href="{{ base_path }}/publications/">View research <span aria-hidden="true">↗</span></a>
+        <a href="{{ base_path }}/posts/">Read writing <span aria-hidden="true">↗</span></a>
+        <a href="mailto:{{ site.author.email }}">Contact <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+
+    <figure class="home-portrait">
+      <div class="home-portrait__frame">
+        <img src="{{ site.author.avatar | prepend: '/images/' | prepend: base_path }}" alt="Portrait of Sid Kannan">
+      </div>
+      <figcaption>Sidharth Kannan · UC Santa Barbara</figcaption>
+    </figure>
+  </section>
+
+  <section class="home-work" aria-labelledby="selected-work-title">
+    <div class="home-section-heading">
+      <div>
+        <p class="home-section-kicker">Research and writing</p>
+        <h2 id="selected-work-title">Selected work</h2>
+      </div>
+      <a href="{{ base_path }}/publications/">All publications <span aria-hidden="true">↗</span></a>
+    </div>
+
+    <div class="home-work-grid">
+      {% assign sorted_publications = site.publications | sort: "date" | reverse %}
+      {% for work in sorted_publications limit: 2 %}
+        <a class="home-work-card" href="{{ work.paperurl }}">
+          <div class="home-work-card__meta">
+            <span>{{ work.venue }} · {{ work.date | date: "%Y" }}</span>
+            <span aria-hidden="true">↗</span>
+          </div>
+          <h3>{{ work.title }}</h3>
+          <p>{{ work.summary | default: work.content | strip_html | normalize_whitespace | truncatewords: 28 }}</p>
+        </a>
+      {% endfor %}
+
+      {% assign latest_post = site.posts | first %}
+      {% if latest_post %}
+        <a class="home-work-card" href="{{ latest_post.url | prepend: base_path }}">
+          <div class="home-work-card__meta">
+            <span>Writing · {{ latest_post.date | date: "%Y" }}</span>
+            <span aria-hidden="true">↗</span>
+          </div>
+          <h3>{{ latest_post.title }}</h3>
+          <p>{{ latest_post.summary | default: latest_post.content | strip_html | normalize_whitespace | truncatewords: 28 }}</p>
+        </a>
+      {% endif %}
+    </div>
+  </section>
+
+</main>
