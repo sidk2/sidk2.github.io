@@ -19,10 +19,11 @@ author_profile: false
 
   <section class="photography-albums" aria-label="Photography collections">
     {% for album in photography.albums %}
+      {% assign preview_photos = album.preview | default: album.photos %}
       <a class="photography-album" href="{{ '/photography/' | append: album.id | append: '/' | relative_url }}"
          aria-label="View {{ album.title | escape }}: {{ album.photos.size }} photographs">
-        <div class="photography-album__preview{% if album.photos.size == 2 %} photography-album__preview--pair{% endif %}" aria-hidden="true">
-          {% for photo_id in album.photos limit: 3 %}
+        <div class="photography-album__preview{% if preview_photos.size == 2 %} photography-album__preview--pair{% endif %}" aria-hidden="true">
+          {% for photo_id in preview_photos limit: 3 %}
             {% assign photo = photography.photos[photo_id] %}
             <img src="{{ photo.small | relative_url }}"
                  srcset="{{ photo.small | relative_url }} {{ photo.small_width }}w, {{ photo.preview | relative_url }} {{ photo.preview_width }}w"

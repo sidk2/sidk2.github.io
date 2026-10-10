@@ -3,6 +3,10 @@
 albums:
   - id: black-and-white
     title: "Black and White"
+    preview:
+      - dsc-0073
+      - dsc-0194
+      - dsc-0088
     photos:
       - dsc-0734
       - dsc-0073
@@ -22,6 +26,10 @@ albums:
       - dsc-0057
   - id: misc
     title: "Misc"
+    preview:
+      - dsc-0363
+      - dsc0011
+      - dsc-0230
     photos:
       - dsc0011
       - dsc-0019
