@@ -1,0 +1,242 @@
+# Titles and captions are shared when a photo appears in more than one album.
+# Add your text to title and caption; keep alt as a visual description.
+albums:
+  - id: black-and-white
+    title: "Black and White"
+    photos:
+      - dsc-0734
+      - dsc-0073
+      - dsc-0194
+      - dsc-0057
+      - dsc-0088
+  - id: yosemite
+    title: "Yosemite"
+    photos:
+      - dsc-0874
+      - dsc-0981
+  - id: birds
+    title: "Birds"
+    photos:
+      - dsc-0208
+      - dsc-0734
+      - dsc-0057
+  - id: misc
+    title: "Misc"
+    photos:
+      - dsc0011
+      - dsc-0019
+      - dsc-0075
+      - dsc-0027
+      - dsc-0106
+      - dsc-0230
+      - dsc-0363
+      - dsc-0805
+
+photos:
+  dsc-0019:
+    original: "DSC_0019.jpg"
+    title: "A puppet in dramatic lighting"
+    caption: ""
+    alt: "An articulated wooden figure lit in blue and amber against a dark background."
+    small: "/images/photography/dsc-0019-640.jpg"
+    small_width: 640
+    preview: "/images/photography/dsc-0019-1200.jpg"
+    preview_width: 1200
+    full: "/images/photography/dsc-0019-2400.jpg"
+    width: 2400
+    height: 1600
+
+  dsc-0027:
+    original: "DSC_0027.jpg"
+    title: "The same puppet in less dramatic lighting"
+    caption: ""
+    alt: "An articulated wooden figure and its shadow in warm light."
+    small: "/images/photography/dsc-0027-640.jpg"
+    small_width: 640
+    preview: "/images/photography/dsc-0027-1200.jpg"
+    preview_width: 1200
+    full: "/images/photography/dsc-0027-2400.jpg"
+    width: 2400
+    height: 1600
+
+  dsc-0057:
+    original: "DSC_0057.jpg"
+    title: "Birds fighting over food"
+    caption: ""
+    alt: "A black-and-white photograph of birds fighting over food."
+    small: "/images/photography/dsc-0057-640.jpg"
+    small_width: 640
+    preview: "/images/photography/dsc-0057-1200.jpg"
+    preview_width: 1200
+    full: "/images/photography/dsc-0057-2400.jpg"
+    width: 1300
+    height: 867
+
+  dsc-0073:
+    original: "DSC_0073.jpg"
+    title: "Construction"
+    caption: ""
+    alt: "An abstract black-and-white view of construction, with strong horizontal lines and curved shadows."
+    small: "/images/photography/dsc-0073-640.jpg"
+    small_width: 640
+    preview: "/images/photography/dsc-0073-1200.jpg"
+    preview_width: 1200
+    full: "/images/photography/dsc-0073-2400.jpg"
+    width: 2400
+    height: 1600
+
+  dsc-0075:
+    original: "DSC_0075.jpg"
+    title: "A jumble of a face"
+    caption: ""
+    alt: "Fragments of sculpted faces arranged against a golden background."
+    small: "/images/photography/dsc-0075-640.jpg"
+    small_width: 640
+    preview: "/images/photography/dsc-0075-1200.jpg"
+    preview_width: 1200
+    full: "/images/photography/dsc-0075-2400.jpg"
+    width: 2400
+    height: 1740
+
+  dsc-0088:
+    original: "DSC_0088.jpg"
+    title: "Arboreal network"
+    caption: ""
+    alt: "A pale tree trunk and branching limbs photographed in black and white."
+    small: "/images/photography/dsc-0088-640.jpg"
+    small_width: 640
+    preview: "/images/photography/dsc-0088-1200.jpg"
+    preview_width: 1200
+    full: "/images/photography/dsc-0088-2400.jpg"
+    width: 2400
+    height: 1600
+
+  dsc-0106:
+    original: "DSC_0106.jpg"
+    title: "Rainbows on dewdrops"
+    caption: ""
+    alt: "Tiny water droplets suspended along the strands of a spiderweb."
+    small: "/images/photography/dsc-0106-640.jpg"
+    small_width: 640
+    preview: "/images/photography/dsc-0106-1200.jpg"
+    preview_width: 1200
+    full: "/images/photography/dsc-0106-2400.jpg"
+    width: 2400
+    height: 1600
+
+  dsc-0194:
+    original: "DSC_0194.jpg"
+    title: "Self portrait during COVID"
+    caption: ""
+    alt: "A blurred black-and-white self-portrait of Sidharth Kannan wearing a face mask."
+    small: "/images/photography/dsc-0194-640.jpg"
+    small_width: 640
+    preview: "/images/photography/dsc-0194-1200.jpg"
+    preview_width: 1200
+    full: "/images/photography/dsc-0194-2400.jpg"
+    width: 2400
+    height: 1600
+
+  dsc-0208:
+    original: "DSC_0208.jpg"
+    title: "A flight of geese"
+    caption: ""
+    alt: "A flock of geese silhouetted against a pink and purple evening sky."
+    small: "/images/photography/dsc-0208-640.jpg"
+    small_width: 640
+    preview: "/images/photography/dsc-0208-1200.jpg"
+    preview_width: 1200
+    full: "/images/photography/dsc-0208-2400.jpg"
+    width: 2400
+    height: 1600
+
+  dsc-0230:
+    original: "DSC_0230.jpg"
+    title: "Monterey sunset"
+    caption: ""
+    alt: "Ocean waves and dark rocks at sunset in Monterey."
+    small: "/images/photography/dsc-0230-640.jpg"
+    small_width: 640
+    preview: "/images/photography/dsc-0230-1200.jpg"
+    preview_width: 1200
+    full: "/images/photography/dsc-0230-2400.jpg"
+    width: 2400
+    height: 1600
+
+  dsc-0363:
+    original: "DSC_0363.jpg"
+    title: "Saturday night on Del Playa"
+    caption: ""
+    alt: "Lights along the rocky shoreline of Del Playa shining through mist at night."
+    small: "/images/photography/dsc-0363-640.jpg"
+    small_width: 640
+    preview: "/images/photography/dsc-0363-1200.jpg"
+    preview_width: 1200
+    full: "/images/photography/dsc-0363-2400.jpg"
+    width: 2400
+    height: 1600
+
+  dsc-0734:
+    original: "DSC_0734.jpg"
+    title: "A pigeon"
+    caption: ""
+    alt: "A pigeon in flight beside overhead wires, photographed in black and white."
+    small: "/images/photography/dsc-0734-640.jpg"
+    small_width: 640
+    preview: "/images/photography/dsc-0734-1200.jpg"
+    preview_width: 1200
+    full: "/images/photography/dsc-0734-2400.jpg"
+    width: 2400
+    height: 1600
+
+  dsc-0805:
+    original: "DSC_0805.jpg"
+    title: "Lunar eclipse"
+    caption: ""
+    alt: "A reddish moon during a lunar eclipse, against a black sky."
+    small: "/images/photography/dsc-0805-640.jpg"
+    small_width: 640
+    preview: "/images/photography/dsc-0805-1200.jpg"
+    preview_width: 1200
+    full: "/images/photography/dsc-0805-2400.jpg"
+    width: 2400
+    height: 1387
+
+  dsc-0874:
+    original: "DSC_0874.jpg"
+    title: "Lake Tenaya (AKA heaven on Earth)"
+    caption: ""
+    alt: "A view across Lake Tenaya toward granite slopes and evergreen trees in Yosemite."
+    small: "/images/photography/dsc-0874-640.jpg"
+    small_width: 640
+    preview: "/images/photography/dsc-0874-1200.jpg"
+    preview_width: 1200
+    full: "/images/photography/dsc-0874-2400.jpg"
+    width: 2400
+    height: 1600
+
+  dsc-0981:
+    original: "DSC_0981.jpg"
+    title: "Yosemite Falls"
+    caption: ""
+    alt: "Yosemite Falls descending from a granite cliff behind evergreen trees."
+    small: "/images/photography/dsc-0981-640.jpg"
+    small_width: 427
+    preview: "/images/photography/dsc-0981-1200.jpg"
+    preview_width: 800
+    full: "/images/photography/dsc-0981-2400.jpg"
+    width: 1600
+    height: 2400
+
+  dsc0011:
+    original: "_DSC0011.jpg"
+    title: "An IRL optical illusion"
+    caption: ""
+    alt: "A sculpted face divided between white plaster and bright bands of color."
+    small: "/images/photography/dsc0011-640.jpg"
+    small_width: 640
+    preview: "/images/photography/dsc0011-1200.jpg"
+    preview_width: 1200
+    full: "/images/photography/dsc0011-2400.jpg"
+    width: 2400
+    height: 1600

@@ -1,0 +1,41 @@
+---
+layout: default
+title: "Photography"
+description: "Selected photographs by Sidharth Kannan."
+permalink: /photography/
+author_profile: false
+---
+
+{% assign photography = site.data.photography %}
+
+<main class="photography-page" aria-labelledby="photography-title">
+  <header class="photography-heading">
+    <div>
+      <h1 id="photography-title">Photography</h1>
+      <p>A selection of photographs I've taken.</p>
+    </div>
+    <p class="photography-count">{{ photography.photos.size }} photographs · {{ photography.albums.size }} collections</p>
+  </header>
+
+  <section class="photography-albums" aria-label="Photography collections">
+    {% for album in photography.albums %}
+      <a class="photography-album" href="{{ '/photography/' | append: album.id | append: '/' | relative_url }}"
+         aria-label="View {{ album.title | escape }}: {{ album.photos.size }} photographs">
+        <div class="photography-album__preview{% if album.photos.size == 2 %} photography-album__preview--pair{% endif %}" aria-hidden="true">
+          {% for photo_id in album.photos limit: 3 %}
+            {% assign photo = photography.photos[photo_id] %}
+            <img src="{{ photo.small | relative_url }}"
+                 srcset="{{ photo.small | relative_url }} {{ photo.small_width }}w, {{ photo.preview | relative_url }} {{ photo.preview_width }}w"
+                 sizes="(max-width: 700px) 66vw, 380px"
+                 width="{{ photo.width }}" height="{{ photo.height }}" alt=""
+                 loading="{% if forloop.parentloop.first %}eager{% else %}lazy{% endif %}" decoding="async">
+          {% endfor %}
+        </div>
+        <div class="photography-album__label">
+          <h2>{{ album.title }}</h2>
+          <span>{{ album.photos.size }} photographs <span aria-hidden="true">↗</span></span>
+        </div>
+      </a>
+    {% endfor %}
+  </section>
+</main>

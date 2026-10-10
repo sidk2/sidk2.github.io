@@ -22,6 +22,9 @@ main:
         
   - title: "Writing"
     url: /posts/
+
+  - title: "Photography"
+    url: /photography/
     
   - title: "CV"
     url: /cv/

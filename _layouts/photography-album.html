@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+{% assign album = site.data.photography.albums | where: "id", page.album | first %}
+
+<main class="photography-page" aria-labelledby="photography-title">
+  <a class="photography-back" href="{{ '/photography/' | relative_url }}"><span aria-hidden="true">←</span> All photography</a>
+  <header class="photography-heading">
+    <div>
+      <h1 id="photography-title">{{ album.title }}</h1>
+      <p>Select a photograph to take a closer look.</p>
+    </div>
+    <p class="photography-count">{{ album.photos.size }} photographs</p>
+  </header>
+
+  <section class="photography-gallery" aria-label="{{ album.title | escape }} photographs">
+    {% for photo_id in album.photos %}
+      {% assign photo = site.data.photography.photos[photo_id] %}
+      <figure class="photograph{% if photo.height > photo.width %} photograph--portrait{% endif %}">
+        <a class="photograph__link"
+           href="{{ photo.full | relative_url }}"
+           data-photo-title="{{ photo.title | escape }}"
+           data-photo-caption="{{ photo.caption | escape }}"
+           aria-label="Enlarge photograph {{ forloop.index }} of {{ album.photos.size }}: {% if photo.title != empty %}{{ photo.title | escape }}{% else %}{{ photo.alt | escape }}{% endif %}">
+          <img src="{{ photo.preview | relative_url }}"
+               srcset="{{ photo.small | relative_url }} {{ photo.small_width }}w, {{ photo.preview | relative_url }} {{ photo.preview_width }}w, {{ photo.full | relative_url }} {{ photo.width }}w"
+               sizes="(max-width: 700px) calc(100vw - 32px), (max-width: 1228px) calc((100vw - 80px) / 2), 574px"
+               width="{{ photo.width }}" height="{{ photo.height }}"
+               alt="{{ photo.alt | escape }}"
+               loading="{% if forloop.index <= 2 %}eager{% else %}lazy{% endif %}"
+               {% if forloop.first %}fetchpriority="high"{% endif %}
+               decoding="async">
+        </a>
+        {% if photo.title != empty %}<figcaption>{{ photo.title | escape }}</figcaption>{% endif %}
+      </figure>
+    {% endfor %}
+  </section>
+
+  <nav class="photography-collections" aria-label="Other photography collections">
+    {% for collection in site.data.photography.albums %}
+      <a href="{{ '/photography/' | append: collection.id | append: '/' | relative_url }}"{% if collection.id == page.album %} aria-current="page"{% endif %}>{{ collection.title }}</a>
+    {% endfor %}
+  </nav>
+</main>

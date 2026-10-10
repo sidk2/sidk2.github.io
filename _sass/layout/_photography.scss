@@ -1,0 +1,284 @@
+.photography-page {
+  width: min(1180px, calc(100% - 48px));
+  margin: 0 auto;
+  padding: 76px 0 100px;
+}
+
+.photography-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 32px;
+  margin-bottom: 48px;
+  padding-bottom: 38px;
+  border-bottom: 1px solid rgba($field-ink, 0.23);
+
+  h1 {
+    margin: 0 0 20px;
+    font-size: clamp(56px, 7vw, 88px);
+    letter-spacing: -0.052em;
+    line-height: 1;
+  }
+
+  p {
+    margin: 0;
+    color: $field-muted;
+    font-size: 15px;
+  }
+
+  .photography-count {
+    padding-bottom: 3px;
+    color: $field-accent;
+    font-family: $field-mono;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    white-space: nowrap;
+  }
+}
+
+.photography-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: center;
+  gap: 32px;
+}
+
+.photography-albums {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 52px 32px;
+}
+
+.photography-album {
+  min-width: 0;
+  color: $field-ink;
+  text-decoration: none;
+
+  &:hover,
+  &:visited {
+    color: $field-ink;
+  }
+
+  &:hover h2 {
+    color: $field-accent;
+  }
+
+  &:focus-visible {
+    outline: 3px solid $field-accent;
+    outline-offset: 8px;
+  }
+}
+
+.photography-album__preview {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+  aspect-ratio: 1.6;
+  overflow: hidden;
+  background: #ded7cb;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 0;
+    object-fit: cover;
+
+    &:first-child {
+      grid-row: 1 / -1;
+    }
+  }
+
+  &--pair img:last-child {
+    grid-row: 1 / -1;
+  }
+}
+
+.photography-album__label {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  padding-top: 18px;
+
+  h2 {
+    margin: 0;
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  > span {
+    color: $field-muted;
+    font-family: $field-mono;
+    font-size: 10px;
+    white-space: nowrap;
+
+    span {
+      margin-left: 8px;
+      color: $field-accent;
+      font-family: $field-sans;
+      font-size: 16px;
+    }
+  }
+}
+
+.photography-back {
+  display: inline-block;
+  margin-bottom: 32px;
+  color: $field-muted;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.photography-collections {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 32px;
+  margin-top: 64px;
+  padding-top: 28px;
+  border-top: 1px solid rgba($field-ink, 0.23);
+
+  a {
+    color: $field-muted;
+    font-size: 13px;
+    text-decoration: none;
+  }
+
+  [aria-current="page"] {
+    color: $field-accent;
+    text-decoration: underline;
+  }
+}
+
+.photograph {
+  display: block;
+  min-width: 0;
+  margin: 0;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border-radius: 0;
+    background: #ded7cb;
+  }
+
+  figcaption {
+    margin-top: 12px;
+    color: $field-muted;
+    font-family: $field-serif;
+    font-size: 17px;
+  }
+}
+
+.photography-lightbox {
+  &.mfp-bg {
+    background: #141713;
+    opacity: 0.96;
+  }
+
+  .mfp-figure::after {
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .mfp-figure figure {
+    display: block;
+  }
+
+  img.mfp-img {
+    max-height: calc(100vh - 160px) !important;
+  }
+
+  .mfp-content {
+    max-width: 1440px;
+  }
+
+  .mfp-bottom-bar {
+    position: static;
+    margin-top: -20px;
+    padding-bottom: 32px;
+  }
+
+  .mfp-counter {
+    top: auto;
+    bottom: 32px;
+    color: #c5c7c5;
+  }
+
+  .mfp-close {
+    position: fixed;
+    top: 12px;
+    right: 16px;
+    color: #fff;
+  }
+
+  .mfp-close:focus-visible,
+  .mfp-arrow:focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+  }
+}
+
+.photography-lightbox__title {
+  margin: 0 0 10px;
+  color: #f3efe6;
+  font-family: $field-serif;
+  font-size: 27px;
+  line-height: 1.25;
+}
+
+.photography-lightbox__caption {
+  max-width: 720px;
+  margin: 0;
+  color: #d9d9d4;
+  font-size: 14px;
+  line-height: 1.65;
+  white-space: pre-line;
+}
+
+.photograph__link {
+  display: block;
+  cursor: zoom-in;
+
+  &:focus-visible {
+    outline: 3px solid $field-accent;
+    outline-offset: 6px;
+  }
+}
+
+@media (max-width: 700px) {
+  .photography-page {
+    width: calc(100% - 32px);
+    padding: 48px 0 72px;
+  }
+
+  .photography-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 28px;
+    padding-bottom: 28px;
+
+    h1 {
+      font-size: clamp(44px, 11vw, 64px);
+    }
+  }
+
+  .photography-gallery {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+  }
+
+  .photography-albums {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 36px;
+  }
+
+  .photography-album__label h2 {
+    font-size: 28px;
+  }
+
+}
