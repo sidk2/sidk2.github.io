@@ -8,7 +8,6 @@
         type: "image",
         mainClass: "photography-lightbox",
         allowHTMLInTemplate: true,
-        focus: ".mfp-close",
         closeMarkup: '<button type="button" class="mfp-close" aria-label="Close photograph" title="Close (Esc)">×</button>',
         gallery: {
           enabled: true,
@@ -40,7 +39,7 @@
           }
         },
         closeOnContentClick: false,
-        closeBtnInside: true,
+        closeBtnInside: false,
         callbacks: {
           open: function () {
             this.wrap.attr({
