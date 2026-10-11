@@ -39,6 +39,7 @@ albums:
       - dsc-0230
       - dsc-0363
       - dsc-0805
+      - kinkaku-ji
 
 photos:
   dsc-0019:
@@ -248,3 +249,16 @@ photos:
     full: "/images/photography/dsc0011-2400.jpg"
     width: 2400
     height: 1600
+
+  kinkaku-ji:
+    original: "kinkaku-ji.jpg"
+    title: "Kinkaku-ji"
+    caption: ""
+    alt: "The golden pavilion at Kinkaku-ji reflected in a pond, surrounded by trees beneath a blue sky."
+    small: "/images/photography/kinkaku-ji-640.jpg"
+    small_width: 640
+    preview: "/images/photography/kinkaku-ji-1200.jpg"
+    preview_width: 1200
+    full: "/images/photography/kinkaku-ji-2400.jpg"
+    width: 2400
+    height: 1350
